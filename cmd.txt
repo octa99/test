@@ -1,6 +1,6 @@
 cls --- limpiar consola
 
-cd --- ir a la carpeta especificada
+cd --- ir a la carpeta especificada y muestra a donde estas
 dir --- muestra los archivos y carpetas del directorio actual
 md --- crear una carpeta
 move --- mover archivos --- move "nombre" "a donde"
@@ -21,4 +21,4 @@ git config --global user.email "mi mail" --- asignar mail
 git config --global user.email --- consultar que mail esta guardado en esta pc
 
 :q! cerrar consola vim
-a ver ahora asd
+a ver ahora
