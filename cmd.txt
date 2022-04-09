@@ -21,4 +21,4 @@ git config --global user.email "mi mail" --- asignar mail
 git config --global user.email --- consultar que mail esta guardado en esta pc
 
 :q! cerrar consola vim
-a ver ahora
+a ver ahora qwe
