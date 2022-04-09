@@ -28,10 +28,23 @@ git revert "id" --- elimina los cambios de un commit en especifico y se hace otr
 git branch --- ver en que rama estoy trabajando
 git branch nombre --- crear una rama
 git checkout nombre --- voy a la rama
+git merge nombre-de-rama --- estando en la rama que queres actualizar usar el comando (con el checkout)
+git branch -d nombreRama --- eliminar una rama
 
 git branch -m master main --- cambiar el nombre a la rama 
 
 git remote -v --- muestra la url
+
+--------
+
+tags --- guardar versiones del proyecto
+
+git tag nombreTag -m "mensaje. EJ: 0.0.1" () se asocia a un commit
+git push --tag  (se suben los tags a github)
+
+------
+
+git pull --- traer los cambios hechos en github(la nube) a la computadora local
 
 -------
 
