@@ -10,13 +10,30 @@ ni "nombre" --- crear archivo
 --------
 
 git init --- iniciar un repositorio
-git status -s --- scaner de todo
 git add . --- meter todos los archivos al repositorio, o sino, se puede especificar que archivo escribiendo su nombre
 git commit -m --- etiquetar lo que esta en el repositorio
-git log --oneline --- ver actividad "ver si es master o main"
 git push --- subirlo a github
+git status -s --- scaner de todo
+git log --oneline --- ver actividad "ver si es master o main"
+
+git checkout "id" --- ver que se realizo en cierto commit (ejemplos de id "2c55b8a", se ven desde git log)
+git checkout "ultimo id"   o   master --- para volver a la normalidad
+
+git reset "id" --- volver a un commit y borrar los commit futuros a ese  (CUIDADO CUANDO SE TRABAJE EN LA NUBE)
+git reset --hard "id" --- vuelves al commit y borras los archivos
+git reflog -- hisotiral de todo lo que se ha hecho (aparecen los id borrados para volver)
+
+git revert "id" --- elimina los cambios de un commit en especifico y se hace otro commit (MAS UTIL PARA TRABAJAR EN LA NUBE)
+
+git branch --- ver en que rama estoy trabajando
+git branch nombre --- crear una rama
+git checkout nombre --- voy a la rama
+
+git branch -m master main --- cambiar el nombre a la rama 
 
 git remote -v --- muestra la url
+
+-------
 
 git config --global user.name "mi usuario" --- asignar mi usuario
 git config --global user.name --- consultar que usuario esta guardado en esta pc
@@ -24,4 +41,3 @@ git config --global user.email "mi mail" --- asignar mail
 git config --global user.email --- consultar que mail esta guardado en esta pc
 
 :q! cerrar consola vim
-a ver ahora
