@@ -14,6 +14,9 @@ git status -s --- scaner de todo
 git add . --- meter todos los archivos al repositorio, o sino, se puede especificar que archivo escribiendo su nombre
 git commit -m --- etiquetar lo que esta en el repositorio
 git log --oneline --- ver actividad "ver si es master o main"
+git push --- subirlo a github
+
+git remote -v --- muestra la url
 
 git config --global user.name "mi usuario" --- asignar mi usuario
 git config --global user.name --- consultar que usuario esta guardado en esta pc
@@ -21,4 +24,4 @@ git config --global user.email "mi mail" --- asignar mail
 git config --global user.email --- consultar que mail esta guardado en esta pc
 
 :q! cerrar consola vim
-a ver ahora qwe
+a ver ahora
