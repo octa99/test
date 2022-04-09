@@ -5,7 +5,7 @@ dir --- muestra los archivos y carpetas del directorio actual
 md --- crear una carpeta
 move --- mover archivos --- move "nombre" "a donde"
 nul > "nombre" ////  --- crear archivo
-
+ni "nombre" --- crear archivo
 
 --------
 
